@@ -7,7 +7,7 @@ function Header() {
  <div className="header">
         <div className="headerTitles">
           <span className="headerTitleSm">Welcome To</span>
-          <span className="headerTitleLg">Ecom</span>
+          <span className="headerTitleLg">E-Com</span>
         </div>
         <img
           className="headerImg"

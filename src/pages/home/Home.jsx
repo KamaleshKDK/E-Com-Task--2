@@ -2,8 +2,6 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Header from '../../components/header/Header';
-import Posts from '../../components/posts/Posts'
-import SideBar from '../../components/sidebar/SideBar';
 import './Home.css';
 
 function Home() {
@@ -23,8 +21,6 @@ function Home() {
     <>
       <Header />
       <div className='home'>
-        <Posts posts={posts} />
-        {/* <SideBar /> */}
       </div>
 
     </>
